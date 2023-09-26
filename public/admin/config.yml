@@ -1,6 +1,8 @@
 backend:
-  name: git-gateway
-  branch: main # Branch to update (optional; defaults to master)
+  name: github
+  repo: pi43r/decap-test
+  branch: main
+  base_url: https://sveltia-cms-auth.matsch.workers.dev/
 media_folder: public/img
 public_folder: img
 collections:
